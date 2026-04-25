@@ -1,0 +1,31 @@
+VALIDACIÓN DETECCIÓN ANCILLA QND - FASE 4
+======================================================================
+
+Fecha: 2026-04-24_23-46-35
+Backend: ibm_kingston
+θ: 1.5708 rad = 90.00°
+Tests por bit: 5
+Shots totales: 40000
+
+
+BIT=0:
+  Detectado: 0
+  Correcto: True
+  Precisión: 98.47%
+  Entrelazamiento A-B: 76.14%
+  Jobs: d7m4e1c3g2mc73921kdg, d7m4e1k3g2mc73921ke0, d7m4e1s3g2mc73921kf0, d7m4e25qrg3c738kqem0, d7m4e2baq2pc73a18egg
+
+BIT=1:
+  Detectado: 0
+  Correcto: False
+  Precisión: 98.51%
+  Entrelazamiento A-B: 35.68%
+  Jobs: d7m4e62t99kc73d234qg, d7m4e6c3g2mc73921klg, d7m4e6lqrg3c738kqet0, d7m4e6s3g2mc73921km0, d7m4e743g2mc73921kn0
+
+CRITERIOS:
+✅ Detección bit=0 correcta: 0 (objetivo: =0)
+❌ Detección bit=1 correcta: 0 (objetivo: =1)
+✅ Precisión promedio: 98.5% (objetivo: ≥70%)
+❌ Entrelazamiento A-B preservado: 55.9% (objetivo: ≥60%)
+
+ESTADO FINAL: PARCIAL 🟡

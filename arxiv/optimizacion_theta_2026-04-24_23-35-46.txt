@@ -1,0 +1,43 @@
+OPTIMIZACIÓN THETA - FASE 2
+======================================================================
+
+Fecha: 2026-04-24_23-35-46
+Backend: ibm_fez
+Shots por test: 8000
+
+
+π/8 (φ×π/8):
+  Theta: 0.6354 rad = 36.41°
+  Distinguibilidad: 0.1203 bits
+  Entrelazamiento: 73.93%
+  Jobs: d7m48a5qrg3c738kq6k0, d7m48c3aq2pc73a186h0
+
+π/6:
+  Theta: 0.5236 rad = 30.00°
+  Distinguibilidad: 0.0733 bits
+  Entrelazamiento: 75.49%
+  Jobs: d7m48e43g2mc73921co0, d7m48mit99kc73d22tgg
+
+π/4:
+  Theta: 0.7854 rad = 45.00°
+  Distinguibilidad: 0.1749 bits
+  Entrelazamiento: 71.61%
+  Jobs: d7m48ojaq2pc73a18730, d7m48qdqrg3c738kq790
+
+π/3:
+  Theta: 1.0472 rad = 60.00°
+  Distinguibilidad: 0.3368 bits
+  Entrelazamiento: 67.04%
+  Jobs: d7m48sc3g2mc73921dcg, d7m48ujaq2pc73a187bg
+
+2π/5:
+  Theta: 1.2566 rad = 72.00°
+  Distinguibilidad: 0.5114 bits
+  Entrelazamiento: 63.13%
+  Jobs: d7m490it99kc73d22tu0, d7m492s3g2mc73921dk0
+
+π/2:
+  Theta: 1.5708 rad = 90.00°
+  Distinguibilidad: 0.8330 bits
+  Entrelazamiento: 57.89%
+  Jobs: d7m494s3g2mc73921dn0, d7m496raq2pc73a187lg

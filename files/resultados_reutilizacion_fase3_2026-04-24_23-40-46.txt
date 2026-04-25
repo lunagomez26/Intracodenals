@@ -1,0 +1,38 @@
+VALIDACIÓN REUTILIZACIÓN PAR - FASE 3
+======================================================================
+
+Fecha: 2026-04-24_23-40-46
+Backend: ibm_fez
+θ óptima: 1.5708 rad = 90.00°
+Shots: 8000
+
+
+corto_3bits:
+  Mensaje: [1, 0, 1]
+  N bits: 3
+  Job ID: d7m4bd43g2mc73921gig
+  Entrelazamiento: 79.75%
+  Max correlación: 96.81%
+
+medio_5bits:
+  Mensaje: [1, 0, 1, 1, 0]
+  N bits: 5
+  Job ID: d7m4bg43g2mc73921gn0
+  Entrelazamiento: 35.33%
+  Max correlación: 50.44%
+
+largo_10bits:
+  Mensaje: [1, 1, 0, 1, 0, 0, 1, 1, 0, 1]
+  N bits: 10
+  Job ID: d7m4bi43g2mc73921gq0
+  Entrelazamiento: 79.71%
+  Max correlación: 96.79%
+
+DEGRADACIÓN: 0.04%
+
+CRITERIOS:
+❌ 5 bits: Entrelazamiento: 35.3% (objetivo: ≥50%)
+✅ 10 bits: Entrelazamiento: 79.7% (objetivo: ≥40%)
+✅ Degradación aceptable: 0.0% (objetivo: <20%)
+
+ESTADO FINAL: FALLIDO ❌

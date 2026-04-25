@@ -1,0 +1,39 @@
+VALIDACIÓN DETECCIÓN ANCILLA QND V2 - FASE 4 MEJORADA
+======================================================================
+
+Fecha: 2026-04-24_23-52-13
+Backend: ibm_fez
+θ: 1.0472 rad = 60.00°
+Acoplamiento: π/8 = 0.3927 rad
+Modulación: RZ (fase)
+Tests por bit: 10
+Shots totales: 80000
+
+OPTIMIZACIONES V2:
+  ✅ RZ en vez de RY
+  ✅ π/3 en vez de π/2
+  ✅ π/8 en vez de π/16
+  ✅ 10 tests en vez de 5
+
+
+BIT=0:
+  Detectado: 0
+  Correcto: True
+  Precisión: 95.17%
+  Entrelazamiento A-B: 72.88%
+  Jobs: d7m4gdlqrg3c738kqhdg, d7m4gdqt99kc73d23790, d7m4ge43g2mc73921n6g, d7m4gec3g2mc73921n70, d7m4geit99kc73d237a0, d7m4getqrg3c738kqhfg, d7m4gf5qrg3c738kqhgg, d7m4gfc3g2mc73921n90, d7m4gfit99kc73d237d0, d7m4gfraq2pc73a18hm0
+
+BIT=1:
+  Detectado: 0
+  Correcto: False
+  Precisión: 95.09%
+  Entrelazamiento A-B: 55.18%
+  Jobs: d7m4gmk3g2mc73921nhg, d7m4gmraq2pc73a18hu0, d7m4gn5qrg3c738kqhqg, d7m4gndqrg3c738kqhr0, d7m4gnlqrg3c738kqhrg, d7m4go43g2mc73921nk0, d7m4goat99kc73d237og, d7m4goit99kc73d237p0, d7m4goraq2pc73a18i0g, d7m4gp3aq2pc73a18i1g
+
+CRITERIOS:
+✅ Detección bit=0 correcta: 0 (objetivo: =0)
+❌ Detección bit=1 correcta: 0 (objetivo: =1)
+✅ Precisión promedio: 95.1% (objetivo: ≥70%)
+✅ Entrelazamiento A-B preservado: 64.0% (objetivo: ≥60%)
+
+ESTADO FINAL: PARCIAL 🟡

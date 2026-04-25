@@ -1,0 +1,4 @@
+1.5707963267948966
+# θ mejor compromiso: π/2
+# Distinguibilidad: 0.8330 bits
+# Entrelazamiento: 57.89%

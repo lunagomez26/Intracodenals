@@ -1,0 +1,49 @@
+# === CREDENCIALES — NUNCA subir ===
+.env
+.credentials.enc
+.salt
+.password_temp
+*.enc
+*.key
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Carpeta interna (nombre largo) ===
+archiovossololeeenoeneviasnada*/
+
+# === Archivos temporales ===
+*.tmp
+*.bak
+*.log
+
+# === Uso interno — no publicar ===
+ZENODO_FORM.md
+ESTADO.md
+INDICE.md
+
+# === Carpetas internas ===
+files/
+EXPERIMENTO_MANCHESTER_PROTOCOLO/
